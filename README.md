@@ -25,3 +25,22 @@ mkpart primary 1MiB 513MiB
 mkpart primary 513MiB 4609MiB
 mkpart primary 4609MiB 100%
 ```
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Ubuntu
+
+## Install .deb files
+```bash
+# will also install all needed dependencies
+sudo apt install *****.deb
+
+# will only install the file
+sudo dpkg -i ****.deb
+```
