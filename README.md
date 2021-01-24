@@ -60,7 +60,7 @@ sudo dpkg -i ****.deb
 
 #### remove PPA
 ```bash
-sudo add-apt-repository --remove canon-trunk/ubuntu
+sudo add-apt-repository --remove ppa:whatever/ppa
 
 # As example
 sudo add-apt-repository --remove http://ppa.launchpad.net/michael-gruz/canon-trunk/ubuntu
