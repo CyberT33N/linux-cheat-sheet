@@ -45,6 +45,23 @@ sudo apt install *****.deb
 sudo dpkg -i ****.deb
 ```
 
+<br><br>
+
+## Install .run files
+```bash
+sudo chmod +x /path/to/file.run
+sudo /path/to/file.run
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
