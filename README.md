@@ -44,3 +44,24 @@ sudo apt install *****.deb
 # will only install the file
 sudo dpkg -i ****.deb
 ```
+
+
+
+
+
+
+
+
+<br><br>
+
+## remove PPA
+
+<br><br>
+
+#### remove PPA
+```bash
+sudo add-apt-repository --remove canon-trunk/ubuntu
+
+# As example
+sudo add-apt-repository --remove http://ppa.launchpad.net/michael-gruz/canon-trunk/ubuntu
+```
