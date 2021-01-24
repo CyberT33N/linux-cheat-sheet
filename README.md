@@ -54,7 +54,7 @@ sudo dpkg -i ****.deb
 
 <br><br>
 
-## remove PPA
+## PPA (Personal Package Archive)
 
 <br><br>
 
