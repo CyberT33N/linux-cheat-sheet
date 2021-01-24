@@ -36,6 +36,16 @@ ____________________________________________
 
 # Ubuntu
 
+<br><br>
+
+
+## benchmark
+- https://www.youtube.com/watch?v=dD4-8NVonVM
+
+
+<br><br>
+
+
 ## Install .deb files
 ```bash
 # will also install all needed dependencies
