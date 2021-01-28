@@ -83,6 +83,50 @@ sudo ncdu /
 
 
 
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# .sh scripts
+
+<br><br>
+
+## Layout
+- When you use **#!/bin/bash** you can execute .sh files without **bash script.sh**! So you can use directly **script.sh**
+```bash
+#!/bin/bash
+mkdir gitlab
+cd gitlab
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 ____________________________________________
 ____________________________________________
