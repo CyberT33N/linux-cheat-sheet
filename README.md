@@ -29,6 +29,68 @@ mkpart primary 4609MiB 100%
 
 
 
+
+
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Disk Space
+
+<br><br>
+
+## Check what files are using your disk space
+```bash
+sudo dnf install ncdu
+sudo apt install ncdu
+
+# check your full disk
+sudo ncdu /
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 ____________________________________________
 ____________________________________________
@@ -92,3 +154,41 @@ sudo add-apt-repository --remove ppa:whatever/ppa
 # As example
 sudo add-apt-repository --remove http://ppa.launchpad.net/michael-gruz/canon-trunk/ubuntu
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
