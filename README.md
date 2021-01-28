@@ -83,6 +83,42 @@ sudo ncdu /
 
 
 
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# extract archives
+
+<br><br>
+
+## zip
+```bash
+unzip yourfile.zip
+```
+
+<br><br>
+
+## tar.gz (https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/)
+```bash
+tar -xf yourfile.tar.gz
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
