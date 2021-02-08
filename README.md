@@ -218,6 +218,92 @@ cd gitlab
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# System
+
+<br><br>
+
+## Logs
+
+<br><br>
+
+#### get system logs to find problems as example when system crash
+# -1 last restart | -2 last restart before 2 days
+journalctl -o short-precise -k -b -2
+
+# Search logs that only contains "error"
+journalctl -o short-precise -k -b -2 | grep -i "error"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 ____________________________________________
 ____________________________________________
