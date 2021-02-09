@@ -2,6 +2,22 @@
 Linux Cheat Sheet with the most needed stuff..
 
 
+
+
+
+
+
+
+<br><br>
+
+# Change Ownership
+```bash
+# -R means recursive
+sudo chown -R username folder
+```
+
+
+
 <br><br>
 
 # Show drives
