@@ -263,6 +263,7 @@ ____________________________________________
 <br><br>
 
 #### get system logs to find problems as example when system crash
+```bash
 # -1 last restart | -2 last restart before 2 days
 journalctl -o short-precise -k -b -2
 
