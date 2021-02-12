@@ -521,3 +521,36 @@ sudo add-apt-repository --remove http://ppa.launchpad.net/michael-gruz/canon-tru
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Fedora
+
+<br><br>
+
+## show if package with specific name exist
+```bash
+sudo dnf list | grep "dragondisk"
+```
+
+
+
+
+
+
