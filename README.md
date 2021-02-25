@@ -550,6 +550,11 @@ sudo dnf list | grep "dragondisk"
 ```
 
 
+<br><br>
+
+## ~/bin
+- In this folder everything is global. This means you can use everything global in your terminal
+
 
 
 
