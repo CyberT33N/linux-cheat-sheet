@@ -118,6 +118,103 @@ sudo ncdu /
 
 
 
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Processes
+
+<br><br>
+
+## kill process
+```bash
+# To kill process in Linux with PID:
+kill pid
+
+# To kill process in Linux with application name:
+killall appname
+```
+
+<br><br>
+
+## force kill process
+```bash
+# To kill process in Linux with PID:
+kill -9 pid
+
+# To kill process in Linux with application name:
+killall -9 appname
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
