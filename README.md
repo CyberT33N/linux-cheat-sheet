@@ -148,6 +148,12 @@ killall -9 appname
 ```
 
 
+<br><br>
+
+## kill all processes on specific port
+```bash
+sudo kill -9 $(sudo lsof -t -i:30500)
+```
 
 
 
