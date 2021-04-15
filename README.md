@@ -546,6 +546,9 @@ zip -r archivename.zip directory_name
 
 # recursive add all sub folders and files in current directory
 zip -r archivename.zip .
+
+# zip multiple directories into individual zip files
+for i in */; do zip -r "${i%/}.zip" "$i"; done
 ```
 
 
