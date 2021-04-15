@@ -310,7 +310,7 @@ lsof -i :30500
 
 
 
-
+dejs/
 
 
 
@@ -543,6 +543,9 @@ ____________________________________________
 ```bash
 # recursive add all sub folders and files
 zip -r archivename.zip directory_name
+
+# recursive add all sub folders and files in current directory
+zip -r archivename.zip .
 ```
 
 
