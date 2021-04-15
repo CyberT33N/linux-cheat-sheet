@@ -536,18 +536,31 @@ ____________________________________________
 ____________________________________________
 <br><br>
 
-# extract archives
+
+# archives
+
+## create archives
+```bash
+# recursive add all sub folders and files
+zip -r archivename.zip directory_name
+```
+
+
 
 <br><br>
 
-## zip
+## extract archives
+
+<br><br>
+
+#### zip
 ```bash
 unzip yourfile.zip
 ```
 
 <br><br>
 
-## tar.gz (https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/)
+#### tar.gz (https://linuxize.com/post/how-to-extract-unzip-tar-gz-file/)
 ```bash
 tar -xf yourfile.tar.gz
 ```
