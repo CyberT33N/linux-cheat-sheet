@@ -470,6 +470,15 @@ ____________________________________________
 
 ## Logs
 
+
+<br><br>
+
+#### check logs realtime
+```bash
+sudo journalctl -f
+```
+
+
 <br><br>
 
 #### get system logs to find problems as example when system crash
