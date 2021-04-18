@@ -607,8 +607,25 @@ ____________________________________________
 ## benchmark
 - https://www.youtube.com/watch?v=dD4-8NVonVM
 
+<br><br>
+
+
+
+## Known Problems
 
 <br><br>
+
+#### Random freezes
+- system settings/ Display and Monitor/ Compositor switching from OpenGL to XRender seems to work.
+
+
+
+
+
+
+
+
+<br><br><br><br>
 
 
 ## Install .deb files
