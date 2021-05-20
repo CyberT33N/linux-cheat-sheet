@@ -17,6 +17,9 @@ Linux Cheat Sheet with the most needed stuff..
 ```bash
 ls
 
+# show hidden files
+la -a
+
 # detailed informations
 ls -al
 ```
