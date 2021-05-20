@@ -8,9 +8,30 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+
+
+# Files
+
+
+## Check all files in current directory
+```bash
+ls
+
+# detailed informations
+ls -al
+```
+
+
+
+
+
+<br><br>
 <br><br>
 
-# Change Ownership
+_________________________________________________________________
+
+
+Change Ownership
 ```bash
 # -R means recursive
 sudo chown -R username folder
