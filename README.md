@@ -202,6 +202,91 @@ cat test1.txt test2.txt > test3.txt
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+_________________________________________________________________
+
+
+<br><br>
+<br><br>
+
+# pipe
+- Pipe the results of any command to a new file
+```bash
+ls > result.txt
+```
+
+## add new text to file
+```bash
+echo hi >> result.txt
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
