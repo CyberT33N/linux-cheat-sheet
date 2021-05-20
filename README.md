@@ -49,7 +49,12 @@ cd -
 ```
 
 
+<br><br>
 
+## Go to home
+```bash
+cd
+```
 
 
 
