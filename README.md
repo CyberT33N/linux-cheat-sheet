@@ -94,6 +94,75 @@ _________________________________________________________________
 
 
 
+<br><br>
+<br><br>
+
+_________________________________________________________________
+
+
+<br><br>
+<br><br>
+
+# Terminal
+
+<br><br>
+
+## Open script in new terminal window and do not close it when its done
+```bash
+xterm -e "bash /home/username/Projects/start.sh;bash"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
