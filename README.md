@@ -1508,3 +1508,73 @@ crontab -e
 1 * * * * /home/usernamehere/Projects/start.sh
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Nvidia Driver
+
+
+
+<br><br>
+
+## Gtx 1080ti
+```bash
+sudo apt-get purge 'nvidia*'
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-driver-430 nvidia-settings
+sudo reboot
+```
+
