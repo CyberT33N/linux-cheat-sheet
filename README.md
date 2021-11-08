@@ -4,6 +4,35 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+<br><br>
+<br><br>
+
+
+# Lock Screen and then sleep after
+- Should work with every linux
+```bash
+xdg-screensaver lock
+sleep 5.0
+systemctl suspend
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
