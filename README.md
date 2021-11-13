@@ -4,6 +4,48 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# Grep
+
+<br><br>
+
+To search a file for a text string, use the following command syntax:
+- grep string filename
+
+For example, let’s search our document.txt text document for the string “example.”
+- grep example document.txt
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
