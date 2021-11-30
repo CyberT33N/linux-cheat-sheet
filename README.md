@@ -1594,6 +1594,14 @@ crontab -e
 
 
 
+<br><br>
+
+## remove cronjob
+```bash
+// Text editor inside of terminal will open. Here you can remove your cronjobs
+crontab -e
+```
+
 
 
 
