@@ -4,9 +4,46 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+# Audio
+
+## Sound not working anymore after sign-out
+- Go to Pulse Audio Volume Control by search it via menu bar. Then change audio output for application. If this not work try killall pulseaudio and then sign-out again and try again to change audio output.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
 
 
 
