@@ -1221,6 +1221,23 @@ ____________________________________________
 sudo journalctl -f
 ```
 
+<br><br>
+
+#### check logs specific time
+```bash
+journalctl --since "2021-11-30 15:00" --until "2021-11-30 17:00" > ~/log.txt
+```
+<br><br>
+
+#### check logs specific time from NetworkManager service
+```bash
+journalctl -u NetworkManager.service --since "2021-11-30 15:00" --until "2021-11-30 17:00" > ~/log.txt
+```
+
+
+
+
+
 
 <br><br>
 
