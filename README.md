@@ -39,6 +39,54 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+
+
+
+
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# KDE
+
+<br><br>
+
+## Logout
+```bash
+loginctl terminate-user <username>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
