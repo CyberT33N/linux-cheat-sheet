@@ -71,6 +71,13 @@ loginctl terminate-user <username>
 
 
 
+<br><br>
+
+## Taskbar not showing
+- Right Click on desktop > Add Panel > Default Panel
+
+
+
 
 
 
