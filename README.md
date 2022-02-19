@@ -65,7 +65,12 @@ ___________________________________________________
 ```bash
 loginctl terminate-user <username>
 ```
+<br><br>
 
+## How to disable "copy on select"?
+```bash
+Go to taskbar down right and make right click on clipboard > Configure Clipboard > Ignore selection
+```
 
 
 
