@@ -1138,6 +1138,10 @@ ln -s ../project/.eslintrc.json ./.eslintrc.json
 ```
 
 
+- Show existing symlinks
+```bash
+ls -la /path/here
+```
 
 
 
