@@ -1285,11 +1285,19 @@ ____________________________________________
 sudo journalctl -f
 ```
 
+
+
 <br><br>
 
 #### check logs specific time
 ```bash
 journalctl --since "2021-11-30 15:00" --until "2021-11-30 17:00" > ~/log.txt
+```
+<br><br>
+
+#### check logs 10 Minutes ago
+```bash
+journalctl --since "10min ago" > ~/log.txt
 ```
 <br><br>
 
