@@ -36,6 +36,58 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+rsync -Pa source destination
+
+
+
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+
+<br><br>
+<br><br>
+
+# Copy
+
+<br><br>
+
+## Copy folder with progress bar
+```
+rsync -Pa source destination
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
