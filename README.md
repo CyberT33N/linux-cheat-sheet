@@ -518,6 +518,55 @@ xterm -e "bash /home/username/Projects/start.sh;bash"
 
 
 
+<br><br>
+<br><br>
+
+_________________________________________________________________
+
+
+<br><br>
+<br><br>
+
+# BTRFS
+
+<br><br>
+
+## Disable btrfs-cleaner
+```bash
+sudo btrfs quota disable /
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
