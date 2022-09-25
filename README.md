@@ -1943,3 +1943,45 @@ sudo apt-get install nvidia-driver-430 nvidia-settings
 sudo reboot
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# FAQ
+
+
+
+<br><br>
+
+## How to disable ksgrd_network_helper because of high cpu
+- Disable columns Download & Upload from your KsysGuard Task Manager
