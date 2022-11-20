@@ -1986,9 +1986,18 @@ ____________________________________________
 ## How to disable ksgrd_network_helper because of high cpu
 - Disable columns Download & Upload from your KsysGuard Task Manager
  
+ 
+ 
+<br><br>
+ 
 ## inotify cannot be used, reverting to polling: Too many open files / User limit of inotify instances reached or too many open files
+## inotify_add_watch -- failed: "No space left on device"
 - https://medium.com/@ivanermilov/how-to-fix-inotify-cannot-be-used-reverting-to-polling-too-many-open-files-bb1c1437dbf
 ```bash
+# Method #1
+echo fs.inotify.max_user_watches=65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+# Method 2
 sudo gedit /etc/sysctl.conf
 
 # Add this to sysctl.conf
@@ -1998,4 +2007,8 @@ fs.inotify.max_user_instances = 25600000
 # To take effect of changes
 sudo sysctl -p
 ```
+
+
+
+
 
