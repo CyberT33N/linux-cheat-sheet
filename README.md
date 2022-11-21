@@ -1994,10 +1994,7 @@ ____________________________________________
 ## inotify_add_watch -- failed: "No space left on device"
 - https://medium.com/@ivanermilov/how-to-fix-inotify-cannot-be-used-reverting-to-polling-too-many-open-files-bb1c1437dbf
 ```bash
-# Method #1
-echo fs.inotify.max_user_watches=65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-
-# Method 2
+# Method 1
 sudo gedit /etc/sysctl.conf
 
 # Add this to sysctl.conf
