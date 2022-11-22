@@ -1600,6 +1600,21 @@ ____________________________________________
 
 <br><br>
 
+## Themes
+- https://itsfoss.com/install-themes-ubuntu/
+- https://www.pling.com/p/1238824/
+
+```
+mkdir ~/.themes
+mkdir ~/.icons
+
+sudo apt install gnome-tweaks gnome-shell-extensions
+
+reboot
+```
+
+<br><br>
+
 
 
 ## Known Problems
