@@ -1947,19 +1947,21 @@ ____________________________________________
 <br><br>
 
 # Nvidia Driver
-
+- You can find a list of nvidia driver here and check there if your graphiccard is supported
+  - https://wiki.ubuntuusers.de/Grafikkarten/Nvidia/nvidia/
 
 
 <br><br>
 
-## Gtx 1080ti
+## Gtx 1050ti
 ```bash
 sudo apt-get purge 'nvidia*'
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
-sudo apt-get install nvidia-driver-430 nvidia-settings
+sudo apt-get install nvidia-driver-525 nvidia-settings
 sudo reboot
 ```
+
 
 
 
