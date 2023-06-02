@@ -34,6 +34,40 @@ pulseaudio -k && pulseaudio --start
 
 
 
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+
+<br><br>
+<br><br>
+
+## Bootable USB
+
+<br><br>
+
+### ubuntu/Kubuntu
+- https://www.youtube.com/watch?v=PurlSJCCuQQ
+1. Open Disks
+2. Choose USB
+3. Click Settings Icon -> Restore Partition Image
+4. Choose .iso file
+5. Click "Start Restoring"
+6. Click "Restore"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
