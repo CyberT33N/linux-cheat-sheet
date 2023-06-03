@@ -75,6 +75,42 @@ ___________________________________________________
 
 
 
+
+
+
+
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+
+<br><br>
+<br><br>
+
+
+# Reset User Password
+
+<br><br>
+
+## Ubuntu/Kubuntu
+
+<br><br>
+
+https://askubuntu.com/questions/24006/how-do-i-reset-a-lost-administrative-password
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
