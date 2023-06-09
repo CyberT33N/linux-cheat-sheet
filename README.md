@@ -2076,6 +2076,48 @@ sudo rm /lib/systemd/system-sleep/nvidia
 
 
 
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+
+
+
+# Appearance / Design
+
+<br><br>
+
+## Desktop
+
+<br><br>
+
+### Shortcut 
+
+<br><br>
+
+#### Create custom shortcut with termainl command
+```shell
+touch ~/Desktop/iron.desktop
+
+sudo nano ~/Desktop/iron.desktop
+
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Iron [Sandboxed]
+Exec=/bin/bash -c "firejail /usr/share/iron/chrome"
+Type=Application
+Terminal=true
+Icon=/home/t33n/Downloads/chromium-logo.png
+```
+
+
+
+
+
+
+
+
 
 
 
