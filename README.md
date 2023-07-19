@@ -721,8 +721,7 @@ cd
 ```bash
 cd "$(dirname "$0")"
 pwd
-printf "\nWe will display now the current directory used:"
-echo "$(dirname "$0")"
+printf "\nWe will display now the current directory used:" && pwd
 ```
 
 
