@@ -11,6 +11,11 @@ Linux Cheat Sheet with the most needed stuff..
 <br><br>
 
 ## Sound not working anymore after sign-out
+
+### Option 2
+- Turn off default audio adapter and then on again and then start again pulseeffect
+
+### Option 2
 - Go to Pulse Audio Volume Control by search it via menu bar. Then change audio output for application. If this not work try killall pulseaudio and then sign-out again and try again to change audio output.
 
 <br><br>
