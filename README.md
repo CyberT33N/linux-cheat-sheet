@@ -920,6 +920,12 @@ ls > result.txt
 echo hi >> result.txt
 ```
 
+## Pipe logs into file that you do not see stdout
+```bash
+port-forward.sh > /dev/null & echo 'Do other stuff where you do not want to see stdout of port-forward.sh'
+```
+
+
 
 
 
