@@ -1685,10 +1685,18 @@ ____________________________________________
 
 <br><br>
 
+## Update after Ubuntu version is not supported anymore
+- https://askubuntu.com/questions/91815/how-to-install-software-or-upgrade-from-an-old-unsupported-release/91821#91821
+```shell
+sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+sudo apt-get update && sudo apt-get dist-upgrade
+```
+
 
 ## benchmark
 - https://www.youtube.com/watch?v=dD4-8NVonVM
 
+<br><br>
 <br><br>
 
 ## Themes
