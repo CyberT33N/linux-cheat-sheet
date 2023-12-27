@@ -1368,9 +1368,15 @@ dejs/
 
 
 <br><br>
-____________________________________________
-____________________________________________
 <br><br>
+
+____________________________________________
+____________________________________________
+
+<br><br>
+<br><br>
+
+
 
 # Symlink
 - Create a link to another file to use it.
@@ -1378,13 +1384,35 @@ ____________________________________________
 ln -s ../project/.eslintrc.json ./.eslintrc.json
 ```
 
+<br><br>
+
 
 - Show existing symlinks
 ```bash
 ls -la /path/here
 ```
 
+<br><br>
 
+## remove symlink
+```shell
+rm -i /pfad/zum/zielordner
+```
+
+<br><br>
+
+## create symlincy recursive for all files expect of specific folder
+```shell
+mkdir -p ~/Dropbox
+cd ~
+for file in *; do if [[ ! "$file" =~ Video|Dropbox ]]; then ln -s "$HOME/$file" "Dropbox/$file"; fi; done
+
+
+
+
+for file in *; do if [[ ! "$file" =~ cs.EntityDescriptions ]]; then ln -s "/home/dennis/Projects/gitlab/ais-ccm-nodejs/ais-ccm-repo/lib/migrations/data/initial-project/$file" "/home/dennis/Projects/gitlab/ais-ccm-nodejs/ais-ccm-repo/lib/migrations/data/test_8000/$file"; fi; done
+
+```
 
 
 
