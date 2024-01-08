@@ -6,21 +6,39 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+
+
+
 # Audio
+
+
+
+## Pulseeffect
+- Open Pulseffects APP
+  - Settings -> Audio -> Put every Playback Stream to Pulseeffect. Make sure at the top at Playback devices Pulseeffects app is 100% volume and you selected your Soundcard
+    - Playback Stream Pulseeffect goes to your Soundcard
+      - Open PulseAudio Volume Control at go to Playback Tab
+        - Pulse Effects Playback Stream goes to your soundcard. All other goes to Pulseffects(app)
+         - Always use PulseAudio Volume Control from now on instead of regular Audio Settings
+  
+
+
+
+
 
 <br><br>
 
-## Sound not working anymore after sign-out
+### Sound not working anymore after sign-out
 
-### Option 2
+#### Option 2
 - Turn off default audio adapter and then on again and then start again pulseeffect
 
-### Option 2
+#### Option 2
 - Go to Pulse Audio Volume Control by search it via menu bar. Then change audio output for application. If this not work try killall pulseaudio and then sign-out again and try again to change audio output.
 
 <br><br>
 
-## Restart pulseaudio
+### Restart pulseaudio
 ```
 pulseaudio -k && pulseaudio --start
 ```
