@@ -277,6 +277,25 @@ Go to taskbar down right and make right click on clipboard > Configure Clipboard
 
 
 
+<br><br>
+<br><br>
+
+## broken login screen
+```shell
+loginctl unlock-session 4
+```
+
+<br><br>
+
+## restart plasma
+```shell
+quitapp5 plasmashell
+kstart5 plasmashell
+```
+
+
+
+
 
 
 <br><br>
