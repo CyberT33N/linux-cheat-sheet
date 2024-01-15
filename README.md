@@ -1446,9 +1446,8 @@ for file in *; do if [[ ! "$file" =~ Video|Dropbox ]]; then ln -s "$HOME/$file" 
 
 
 
-
-for file in *; do if [[ ! "$file" =~ cs.EntityDescriptions ]]; then ln -s "/home/dennis/Projects/gitlab/ais-ccm-nodejs/ais-ccm-repo/lib/migrations/data/initial-project/$file" "/home/dennis/Projects/gitlab/ais-ccm-nodejs/ais-ccm-repo/lib/migrations/data/test_8000/$file"; fi; done
-
+# example
+for file in *; do if [[ ! "$file" =~ cs.EntityDescriptions ]]; then ln -s "/home/dennis/Projects/lib/migrations/data/initial-project/$file" "/home/dennis/Projects/lib/migrations/data/test_8000/$file"; fi; done
 ```
 
 
