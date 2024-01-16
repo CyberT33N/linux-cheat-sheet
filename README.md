@@ -1447,7 +1447,18 @@ for file in *; do if [[ ! "$file" =~ Video|Dropbox ]]; then ln -s "$HOME/$file" 
 
 
 # example
-for file in *; do if [[ ! "$file" =~ cs.EntityDescriptions ]]; then ln -s "/home/dennis/Projects/lib/migrations/data/initial-project/$file" "/home/dennis/Projects/lib/migrations/data/test_8000/$file"; fi; done
+cd ~/lib/migrations/data
+
+# create new client folder
+mkdir "test-10400"
+
+# cd into this folder because we will iterate of every file
+cd "initial-project"
+
+for file in *; do if [[ ! "$file" =~ cs.Apple ]]; then ln -s "$file" "../test-10400/$file"; fi; done
+
+# Copy the excluded folder - So we use it without symlink
+cp -r "cs.Apple" "../test-10400/cs.Apple"
 ```
 
 
