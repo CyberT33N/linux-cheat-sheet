@@ -1416,7 +1416,16 @@ ____________________________________________
 
 
 # Symlink
-- Create a link to another file to use it.
+- You can create symlinks for files and folders
+  - If you decide to symlink a folder then the folder for your destination must not exists because it will be automatically created
+
+- You can use absolute or relative paths. However for git projects you should always use relative paths that other developers can cooperate with your symlinks inside the project
+  - It is very important that you cd inside the the destination directory where you want to create the symlink for your folder / file
+
+
+
+
+## Create a link to another file to use it.
 ```bash
 ln -s ../project/.eslintrc.json ./.eslintrc.json
 ```
@@ -1424,7 +1433,7 @@ ln -s ../project/.eslintrc.json ./.eslintrc.json
 <br><br>
 
 
-- Show existing symlinks
+## Show existing symlinks
 ```bash
 ls -la /path/here
 ```
@@ -1438,15 +1447,89 @@ rm -i /pfad/zum/zielordner
 
 <br><br>
 
-## create symlincy recursive for all files expect of specific folder
+## create symlincy recursive for all folders expect of specific folder
 ```shell
+# example 1
+MIGRATIONS_PATH="/home/dennis/Projects/migrations"
+
+CUSTOM_PROJECT="test-10400"
+CUSTOM_PROJECT_PATH="data/$CUSTOM_PROJECT"
+
+INITIAL_PROJECT="initial-project"
+INITIAL_PROJECT_PATH="data/$INITIAL_PROJECT"
+
+EXLUDED_FOLDER="Apple"
+
+create_symlinks() {
+    for folder in ../$INITIAL_PROJECT/*; do
+       if [[ ! "$folder" =~ "$EXLUDED_FOLDER" ]]; then
+           ENTITY_NAME="$(basename -- "$folder")"
+           echo "ENTITY_NAME: $ENTITY_NAME"
+   
+           SOURCE="../$INITIAL_PROJECT/$ENTITY_NAME"
+           echo "SOURCE: $SOURCE"
+     
+           DESTINATION="./$ENTITY_NAME"
+           echo "DESTINATION: $DESTINATION"  
+       
+           ln -s "$SOURCE" "$DESTINATION"
+       fi
+    done
+}
+
+# Navigate to the data directory
+cd $MIGRATIONS_PATH
+
+# Remove existing directory
+rm -rf "$CUSTOM_PROJECT_PATH"
+
+# Create the new client folder
+mkdir $CUSTOM_PROJECT_PATH
+
+# Create symlinks
+(cd $CUSTOM_PROJECT_PATH; create_symlinks)
+
+# Copy the excluded folder to use it without a symlink
+cp -r "$INITIAL_PROJECT_PATH/$EXLUDED_FOLDER" "$CUSTOM_PROJECT_PATH/$EXLUDED_FOLDER"
+
+# Verify that everything worked
+ls -l "$CUSTOM_PROJECT_PATH/SchemaEntities"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# example 2
 mkdir -p ~/Dropbox
 cd ~
 for file in *; do if [[ ! "$file" =~ Video|Dropbox ]]; then ln -s "$HOME/$file" "Dropbox/$file"; fi; done
 
 
 
-# example
+
+
+
+
+
+
+
+
+
+
+# example 3
 cd ~/lib/migrations/data
 
 # create new client folder
