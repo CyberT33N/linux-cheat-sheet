@@ -2261,18 +2261,23 @@ ____________________________________________
 ____________________________________________
 <br><br>
 
-# Nvidia Driver
+# Nvidia
+
+
+
+
+## Driver
 - You can find a list of nvidia driver here and check there if your graphiccard is supported
   - https://wiki.ubuntuusers.de/Grafikkarten/Nvidia/nvidia/
 
 
 <br><br>
 
-## Gtx 1050ti
+### Gtx 1050ti
 
 <br><br>
 
-### Install / Update
+#### Install / Update
 ```shell
 sudo apt-get purge 'nvidia*'
 sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -2283,7 +2288,7 @@ sudo reboot
 
 <br><br>
 
-### Check if new driver version is available
+#### Check if new driver version is available
 ```shell
 # Get current driver
 nvidia-smi
@@ -2294,7 +2299,7 @@ ubuntu-drivers devices
 
 
 
-## Suspend not working anymore
+### Suspend not working anymore
 - If you suspend and it directly wake up after it then try:
 ```
 sudo systemctl stop nvidia-suspend.service
@@ -2313,6 +2318,26 @@ sudo rm /lib/systemd/system-sleep/nvidia
 
 
 
+
+
+## Cuda & cuDNN
+
+### Install
+
+#### Ubuntu 23.04
+```shell
+sudo apt update
+sudo apt install build-essential
+
+# check if it worked
+gcc --version
+g++ --version
+
+sudo apt install nvidia-cuda-toolkit nvidia-cuda-toolkit-gcc nvidia-cudnn
+
+# Check if it worked
+nvcc --version
+```
 
 
 
