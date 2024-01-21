@@ -2269,12 +2269,27 @@ ____________________________________________
 <br><br>
 
 ## Gtx 1050ti
-```bash
+
+<br><br>
+
+### Install / Update
+```shell
 sudo apt-get purge 'nvidia*'
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 sudo apt-get install nvidia-driver-525 nvidia-settings
 sudo reboot
+```
+
+<br><br>
+
+### Check if new driver version is available
+```shell
+# Get current driver
+nvidia-smi
+
+# Check if driver update is available
+ubuntu-drivers devices
 ```
 
 
