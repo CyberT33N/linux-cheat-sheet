@@ -244,6 +244,81 @@ rsync -Pa source destination
 
 
 
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+<br><br>
+<br><br>
+
+# Terminal Managment
+
+
+
+## screen
+- https://wiki.ubuntuusers.de/Screen/
+```shell
+sudo apt-get install screen 
+```
+
+### Wichtige Befehle
+
+- Die drei wichtigsten Befehle bzw. Tastenkombinationen, die man kennen sollte, sind:
+    - Strg + A , gefolgt von C zum Erstellen eines neuen Fensters (siehe auch Unterschied zwischen Sitzung und Fenster)
+    - Strg + A , gefolgt von SPACE zum Wechseln zwischen den einzelnen Fenstern einer Sitzung
+    - Strg + A , gefolgt von D zum Trennen (detach) der Verbindung zur aktuellen Sitzung, die Sitzung läuft dann im Hintergrund weiter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
