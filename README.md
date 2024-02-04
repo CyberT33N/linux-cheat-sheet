@@ -1423,15 +1423,26 @@ ____________________________________________
   - It is very important that you cd inside the the destination directory where you want to create the symlink for your folder / file
 
 
+<br><br>
+<br><br>
 
 
-## Create a link to another file to use it.
+## Create symlink to another file to use it.
 ```bash
 ln -s ../project/.eslintrc.json ./.eslintrc.json
 ```
 
 <br><br>
 
+## Create a link to another folder to use it.
+```bash
+# In this case
+# ln -s FolderWhereYouCentralFiles FolderWhereYouCreateSymlink
+ln -s ~/Projects/ai/checkpoints/Stable-diffusion ~/Projects/stable-diffusion-webui/models
+ls -l ~/Projects/stable-diffusion-webui/models/Stable-diffusion
+```
+
+<br><br>
 
 ## Show existing symlinks
 ```bash
