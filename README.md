@@ -289,7 +289,7 @@ loginctl unlock-session 4
 
 ## restart plasma
 ```shell
-quitapp5 plasmashell
+kquitapp5 plasmashell
 kstart5 plasmashell
 ```
 
