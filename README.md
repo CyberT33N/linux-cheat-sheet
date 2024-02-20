@@ -366,6 +366,11 @@ loginctl unlock-session 4
 ```shell
 kquitapp5 plasmashell
 kstart5 plasmashell
+
+# Restart plasma from tty
+# Switch to tty2 by Press CTRL + ALT + F2 and hohld all buttons
+systemctl restart sddm.service
+# Then switch back to tty by Press CTRL + ALT + F1
 ```
 
 
