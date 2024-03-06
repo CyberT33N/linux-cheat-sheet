@@ -22,10 +22,40 @@ Linux Cheat Sheet with the most needed stuff..
          - Always use PulseAudio Volume Control from now on instead of regular Audio Settings
   
 
+<br><br>
+
+## Bluetooth Mic not detected
+
+1. Install Pulse Audio Volume Control
+```
+sudo apt-get install pavucontrol
+```
+
+2. Go to tab `Configuration`and set profile `High Fidelity Payback`. Then at Input devices should be able to select your Bluetooth mic input
 
 
 
 
+
+<br><br>
+
+## Input Mic not detected
+
+1. Install Pulse Audio Volume Control
+```
+sudo apt-get install pavucontrol
+```
+
+2. Then at Input devices should be able to select your Bluetooth mic input
+
+
+
+
+
+
+
+
+<br><br>
 <br><br>
 
 ### Sound not working anymore after sign-out
@@ -2354,7 +2384,7 @@ ____________________________________________
 
 # Nvidia
 
-
+<br><br>
 
 
 ## Driver
@@ -2369,6 +2399,16 @@ ____________________________________________
 <br><br>
 
 #### Install / Update
+
+<br><br>
+
+##### Method 1 (recommended)
+- You should install nvidia driver via the GUI
+  - https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu
+
+<br><br>
+
+##### Method 2
 ```shell
 sudo apt-get purge 'nvidia*'
 sudo add-apt-repository ppa:graphics-drivers/ppa
