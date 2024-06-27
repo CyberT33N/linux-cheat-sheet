@@ -84,6 +84,38 @@ pulseaudio -k && pulseaudio --start
 
 
 
+<br><br>
+<br><br>
+
+___________________________________________________
+___________________________________________________
+
+
+<br><br>
+<br><br>
+
+
+# Terminal
+
+## Buffer Size
+
+### Konsole
+- If you have started a shell session in Konsole, do the following:
+
+Konsole > Settings > Edit current profile > Scrolling > Scrollback
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
