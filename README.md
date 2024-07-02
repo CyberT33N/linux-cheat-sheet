@@ -2520,6 +2520,23 @@ nvcc --version
 
 
 
+<br><br>
+____________________________________________
+____________________________________________
+<br><br>
+
+# Corsair
+
+## Corsair iCue
+- You can use VMware which does not use any virtualisiation and then run Windows
+- You can also boot into Windows PE live
+
+
+
+
+
+
+
 
 
 
