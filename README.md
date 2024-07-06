@@ -1836,6 +1836,7 @@ ____________________________________________
 <br><br>
 
 ## Logs
+- If you want to find logs after you system crashed try to search for `-- Boot`
 
 
 <br><br>
