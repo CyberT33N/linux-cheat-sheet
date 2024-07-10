@@ -1867,6 +1867,37 @@ ____________________________________________
 
 <br><br>
 
+## user
+
+<br><br>
+
+### Get details about user processes
+```shell
+ps -u userHere -f
+```
+
+
+
+
+<br><br>
+<br><br>
+
+
+## process
+
+### Get details about process tree
+```shell
+pstree -p | grep mongosh
+```
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 ## Logs
 - If you want to find logs after you system crashed try to search for `-- Boot`
 
