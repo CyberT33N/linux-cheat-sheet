@@ -80,6 +80,80 @@ pulseaudio -k && pulseaudio --start
 
 
 
+
+
+
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+<br><br>
+<br><br>
+
+
+# PDF
+
+<br><br>
+
+## Convert multiple files to pdf
+```shell
+sudo apt install imagemagick
+convert image1.jpg image2.png text.txt PDFfile.pdf outputFileName.pdf
+```
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+<br><br>
+<br><br>
+
+# Images
+
+<br><br>
+
+## Change quality
+```shell
+sudo apt install imagemagick
+# cd into diretory with the images
+mogrify -quality 75% *
+```
+
+<br><br>
+
+## Resize image
+```shell
+sudo apt install imagemagick
+# cd into diretory with the images
+mogrify -resize 50% -format jpg *.png
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
