@@ -82,6 +82,46 @@ pulseaudio -k && pulseaudio --start
 
 
 
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+<br><br>
+<br><br>
+
+
+# Certs
+
+<br><br>
+
+## Openssl
+
+<br><br>
+
+### Download cert from address
+```shell
+openssl s_client -showcerts -connect minio.local.com:443 -servername minio.local.com < /dev/null 2>/dev/null | openssl x509 -outform PEM > minio.local.com.crt
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 <br><br>
