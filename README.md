@@ -5,6 +5,15 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+# Empty Trash
+```shell
+sudo rm -rf ~/.local/share/Trash/*
+```
+
+
+<br><br>
+--- 
+<br><br>
 
 
 
