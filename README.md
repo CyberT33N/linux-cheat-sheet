@@ -2640,12 +2640,13 @@ ____________________________________________
 
 ##### Method 2
 - https://ubuntu.com/server/docs/nvidia-drivers-installation
-- 
+  
 ```shell
 sudo ubuntu-drivers list
 sudo ubuntu-drivers install nvidia:550
 sudo reboot
 ```
+- You can do the same for updating :) 
 
 <br><br>
 
