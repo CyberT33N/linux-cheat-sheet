@@ -2639,11 +2639,11 @@ ____________________________________________
 <br><br>
 
 ##### Method 2
+- https://ubuntu.com/server/docs/nvidia-drivers-installation
+- 
 ```shell
-sudo apt-get purge 'nvidia*'
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt-get update
-sudo apt-get install nvidia-driver-525 nvidia-settings
+sudo ubuntu-drivers list
+sudo ubuntu-drivers install nvidia:550
 sudo reboot
 ```
 
