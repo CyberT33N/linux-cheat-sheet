@@ -2698,6 +2698,7 @@ sudo rm /lib/systemd/system-sleep/nvidia
 ### Install
 
 #### Ubuntu 23.04
+- Install first latest nvidia driver (https://github.com/CyberT33N/linux-cheat-sheet/blob/main/README.md#nvidia)
 ```shell
 sudo apt update
 sudo apt install build-essential
