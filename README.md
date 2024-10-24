@@ -2624,21 +2624,17 @@ ____________________________________________
 
 <br><br>
 
-### Gtx 1050ti
+### Install / Update
 
 <br><br>
 
-#### Install / Update
-
-<br><br>
-
-##### Method 1 (recommended)
+#### Method 1
 - You should install nvidia driver via the GUI
   - https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu
 
 <br><br>
 
-##### Method 2
+#### Method 2 (recommended)
 - https://ubuntu.com/server/docs/nvidia-drivers-installation
   
 ```shell
@@ -2647,6 +2643,9 @@ sudo ubuntu-drivers install nvidia:550
 sudo reboot
 ```
 - You can do the same for updating :) 
+
+
+
 
 <br><br>
 
@@ -2660,6 +2659,18 @@ ubuntu-drivers devices
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 ### Suspend not working anymore
 - If you suspend and it directly wake up after it then try:
