@@ -185,6 +185,9 @@ mogrify -quality 75% *
 sudo apt install imagemagick
 # cd into diretory with the images
 mogrify -resize 50% -format jpg *.png
+
+# To specifc size
+mogrify -resize 1024x1024! *
 ```
 
 
