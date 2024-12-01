@@ -195,6 +195,19 @@ mogrify -resize 1024x1024 -background white -gravity center -extent 1024x1024 *
 ```
 
 
+<br><br>
+
+## Convert
+
+<br><br>
+
+### png to webp
+```
+sudo apt install webp
+cwebp -q 60 Cute-Baby-Girl.png -o Cute-Baby-Girl.webp
+```
+
+
 
 
 
