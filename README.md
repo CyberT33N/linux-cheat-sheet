@@ -2218,6 +2218,19 @@ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-relea
 sudo apt-get update && sudo apt-get dist-upgrade
 ```
 
+### Upgrade to new dist
+    Modify your current /etc/apt/sources.list and replace the urls starting with http://archive... by http://old-releases
+    Once done, execute sudo apt update then sudo apt upgrade and sudo apt dist-upgrade
+    Then reboot
+    Modify the /etc/apt/sources.list and put back archive instead of old-releases
+    Modify the /etc/apt/sources.list and replace all occurences of kinetic by lunar
+    Then perform sudo apt update, sudo apt upgrade and sudo apt dist-upgrade. This will ensure that you upraded to 23.04
+    Then reboot
+    Then do a sudo do-release-upgrade to upgrade to 23.10
+
+
+
+
 
 ## benchmark
 - https://www.youtube.com/watch?v=dD4-8NVonVM
