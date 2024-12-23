@@ -2218,7 +2218,7 @@ sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-relea
 sudo apt-get update && sudo apt-get dist-upgrade
 ```
 
-### Upgrade to new dist
+### Upgrade 22 to 23
     Modify your current /etc/apt/sources.list and replace the urls starting with http://archive... by http://old-releases
     Once done, execute sudo apt update then sudo apt upgrade and sudo apt dist-upgrade
     Then reboot
@@ -2231,6 +2231,11 @@ sudo apt-get update && sudo apt-get dist-upgrade
 
 
 
+
+
+
+<br><br>
+<br><br>
 
 ## benchmark
 - https://www.youtube.com/watch?v=dD4-8NVonVM
