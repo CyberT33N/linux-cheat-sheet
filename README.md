@@ -2211,23 +2211,58 @@ ____________________________________________
 
 <br><br>
 
-## Update after Ubuntu version is not supported anymore
+## Update
+
+<br><br>
+
+### Update after Ubuntu version is not supported anymore
 - https://askubuntu.com/questions/91815/how-to-install-software-or-upgrade-from-an-old-unsupported-release/91821#91821
 ```shell
 sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 sudo apt-get update && sudo apt-get dist-upgrade
 ```
 
-### Upgrade 22 to 23
-    Modify your current /etc/apt/sources.list and replace the urls starting with http://archive... by http://old-releases
-    Once done, execute sudo apt update then sudo apt upgrade and sudo apt dist-upgrade
-    Then reboot
-    Modify the /etc/apt/sources.list and put back archive instead of old-releases
-    Modify the /etc/apt/sources.list and replace all occurences of kinetic by lunar
-    Then perform sudo apt update, sudo apt upgrade and sudo apt dist-upgrade. This will ensure that you upraded to 23.04
-    Then reboot
-    Then do a sudo do-release-upgrade to upgrade to 23.10
 
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+## Upgrade
+```
+sudo apt update
+sudo apt upgrade
+```
+
+<br><br>
+
+### Dist Upgrade
+```
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo do-release-upgrade
+```
+
+
+#### Upgrade 22 to 23
+- Try first the default dist upgrade method explained above and if it not working like you get an error hat upgrade is not supported then try this.
+- Works aswell for 23 to 24
+- Make sure that while the install process when it will ask you to update grub that you keep the local version instead by replacing it with a new one. This is necesarry when you have custom boot options with grub like e.g. disk encrytption. Everything else is straight forward and can be just be confirmed all the time with yes.
+```
+Modify your current /etc/apt/sources.list and replace the urls starting with http://archive... by http://old-releases
+Once done, execute sudo apt update then sudo apt upgrade and sudo apt dist-upgrade
+Then reboot
+Modify the /etc/apt/sources.list and put back archive instead of old-releases
+Modify the /etc/apt/sources.list and replace all occurences of kinetic by lunar
+Then perform sudo apt update, sudo apt upgrade and sudo apt dist-upgrade. This will ensure that you upraded to 23.04
+Then reboot
+Then do a sudo do-release-upgrade to upgrade to 23.10
+```
 
 
 
