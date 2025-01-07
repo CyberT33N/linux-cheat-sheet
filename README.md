@@ -5,6 +5,60 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+
+# umount
+
+## Unmount busy target
+-  sudo umount -f 
+```shell
+#!/bin/bash
+
+# Finde alle gemounteten VeraCrypt-Volumes
+veracrypt_volumes=$(mount | grep 'veracrypt' | awk '{print $1}')
+
+# Überprüfe, ob VeraCrypt-Volumes gefunden wurden
+if [ -z "$veracrypt_volumes" ]; then
+    echo "Keine gemounteten VeraCrypt-Volumes gefunden."
+else
+    # Demontiere jedes gefundene VeraCrypt-Volume
+    for volume in $veracrypt_volumes; do
+        echo "Versuche, $volume zu demontieren..."
+        sudo umount -f "$volume"
+        if [ $? -eq 0 ]; then
+            echo "$volume erfolgreich demontiert."
+        else
+            echo "Fehler beim Demontieren von $volume."
+        fi
+    done
+fi
+```
+
+
+
+
+
+
+<br><br>
+_____
+_____
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Empty Trash
 ```shell
 sudo rm -rf ~/.local/share/Trash/*
