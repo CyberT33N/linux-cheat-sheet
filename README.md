@@ -33,7 +33,7 @@ else
 fi
 ```
 
-v2:
+v2 (check in electron.js):
 ```javascript
 
 // Function to cleanup VeraCrypt mounts and device mapper entries
