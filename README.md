@@ -2743,5 +2743,19 @@ sudo sysctl -p
 
 
 
+ 
+ 
+<br><br>
+
+## The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /tmp/.mount_cursorkGhSPt/chrome-sandbox is owned by root and has mode 4755.
+```shell
+./cursor-0.41.2x86_64.AppImage --appimage-extract
+
+sudo chown root:root squashfs-root/chrome-sandbox
+sudo chmod 4755 squashfs-root/chrome-sandbox
+
+./squashfs-root/AppRun
+```
+
 
 
