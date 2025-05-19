@@ -3,7 +3,19 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+# MAC
+- https://github.com/trycua/cua/tree/main/libs/lumier
 
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 
 # umount
