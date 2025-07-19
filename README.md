@@ -1487,7 +1487,8 @@ ls -al
 ```
 
 
-
+### ls packages
+- https://github.com/lsd-rs/lsd
 
 
 
