@@ -1,7 +1,10 @@
 # linux-cheat-sheet
 Linux Cheat Sheet with the most needed stuff..
 
+# windows
 
+## apps on linux
+- https://www.winboat.app/
 
 # MAC
 - https://github.com/trycua/cua/tree/main/libs/lumier
