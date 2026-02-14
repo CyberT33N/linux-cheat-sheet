@@ -2078,6 +2078,42 @@ ln -s ../project/.eslintrc.json ./.eslintrc.json
 
 <br><br>
 
+
+
+### Example #2
+```bash
+repoRoot="$HOME/Projects/cheat-sheets/ai/prompts-cheat-sheet"
+
+# Source (the file you actually maintain)
+sourcePath="$repoRoot/IDE/prompts/creation-prompts/master-prompts.md"
+
+# Link (the "Architecture" file inside .cursor/commands)
+linkDir="$HOME/.cursor/commands"
+linkName='[PROMPT] - [PROMPTING] - MCP.md'
+linkPath="$linkDir/$linkName"
+
+# If the link path exists (including broken symlinks), remove it
+if [[ -e "$linkPath" || -L "$linkPath" ]]; then
+  rm -f -- "$linkPath"
+fi
+
+# Create the symlink
+ln -s -- "$sourcePath" "$linkPath"
+```
+
+<br><br>
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
 ## Create a link to another folder to use it.
 ```bash
 # In this case
