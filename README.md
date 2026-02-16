@@ -282,6 +282,15 @@ ___________________________________________________
 
 <br><br>
 
+## remove password from protected pdf
+```shell
+sudo apt install qpdf
+qpdf --password=abc123 --decrypt iban-anfrag.pdf iban-anfrag-no-pw.pdf
+```
+
+
+<br><br>
+
 ## Convert multiple files to pdf
 ```shell
 sudo apt install imagemagick
