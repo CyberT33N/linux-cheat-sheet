@@ -13,6 +13,21 @@ Linux Cheat Sheet with the most needed stuff..
 
 
 
+<br><br>
+<br><br>
+
+# Update
+```
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+```
+
+
+
+
+
+---
 
 
 
