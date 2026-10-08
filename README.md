@@ -363,6 +363,8 @@ source .venv/bin/activate
 ### PDF verarbeiten
 
 ```bash
+python -m pip install python-docx
+
 paddleocr pp_structurev3 \
   -i "/home/test/test_Dennis_final-1.pdf" \
   --device cpu \
