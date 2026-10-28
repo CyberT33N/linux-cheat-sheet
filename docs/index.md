@@ -71,6 +71,7 @@ Canonical navigation surface for this cheat sheet. The repository-root `README.m
 - [VeraCrypt cleanup from Electron (device-mapper)](./storage/veracrypt-electron-cleanup.md)
 - [BTRFS: disable btrfs-cleaner](./storage/btrfs.md)
 - [Drives, partitions & disk usage](./storage/disks-partitions-and-usage.md)
+- [ncdu: exclude patterns (node_modules, .venv, …)](./storage/ncdu-exclude-patterns.md)
 
 ## System
 
