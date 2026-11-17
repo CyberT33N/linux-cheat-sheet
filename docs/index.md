@@ -33,6 +33,13 @@ Canonical navigation surface for this cheat sheet. The repository-root `README.m
 ## Distros
 
 - [Fedora notes](./distros/fedora.md)
+- Ubuntu
+  - Network
+    - OpenSSH
+      - [Install OpenSSH 10.6p1 from verified source](./distros/ubuntu/network/openssh/install.md)
+      - [Update OpenSSH on Ubuntu](./distros/ubuntu/network/openssh/update.md)
+      - Troubleshooting
+        - [SSH agent vs KWallet conflict (Ubuntu + KDE: gcr-ssh-agent signing refusal)](./distros/ubuntu/network/openssh/troubleshooting/ssh-agent-kwallet-conflict.md)
 
 ## Emulation
 
